@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IsraDev | Portfolio Web</title>
+    <!-- Favicons -->
+    <link href="images/LOGO_TECNOPRO_T.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function () {
+         emailjs.init({
+            publicKey: "JLfysdnXNYuskkx07",
+         });
+      })();
+    </script>
+</head>
+<body>
+    <div class="container">
+        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+
+
+
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div>
+                <a class="left" href="index.html">
+                    <h2><span style="color: #72a1dea2;">Isra</span>Dev</h2>
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="#info-section" data-section="header" data-value="about-me">Sobre Mí</a></li>
+                <li><a href="#my-project" data-section="header" data-value="projects">Proyectos</a></li>
+                <li><a href="#skills-section" data-section="header" data-value="skills">Skills</a></li>
+            </ul>
+
+            <div class="box-icons">
+               <a href="https://www.facebook.com/profile.php?id=61572964706066" target="_blank"><i class='bx bxl-facebook-circle' ></i>
+               </a>
+               <a href="https://github.com/Isradev96" target="_blank"><i class='bx bxl-github' ></i></a>
+               <a href="https://www.linkedin.com/in/israel-de-jes%C3%BAs-cort%C3%A9s-pelayo-814118252/" target="_blank">
+               <i class='bx bxl-linkedin-square' ></i>
+               </a>
+
+                <div class="lang-dropdown">
+                    <button class="btn-lang-toggle" id="activeLangBtn">
+                        <img id="activeFlag" src="https://flagcdn.com/w40/mx.png" alt="Idioma activo" width="35" title="Idioma" aria-label="Idioma">
+                    </button>
+                    <ul class="lang-menu">
+                        <li>
+                            <button class="btn-lang" data-language="es" data-flag="https://flagcdn.com/w40/mx.png">
+                                <img src="https://flagcdn.com/w40/mx.png" alt="Español" width="35" title="Español" aria-label="Español">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn-lang" data-language="en" data-flag="https://flagcdn.com/w40/us.png">
+                                <img src="https://flagcdn.com/w40/us.png" alt="Inglés" width="35" title="Inglés" aria-label="Inglés">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>            
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            
+            <ul>
+                <li><a href="index.html" data-section="header" data-value="home">Inicio</a></li>
+                <li><a href="#info-section" data-section="header" data-value="about-me">Sobre Mí</a></li>
+                <li><a href="#my-project" data-section="header" data-value="projects">Proyectos</a></li>
+                <li><a href="#skills-section" data-section="header" data-value="skills">Skills</a></li>
+                <li><a href="#contact-section" data-section="header" data-value="contact">Contacto</a></li>
+            </ul>
+
+                 <ul class="lang-sidebar">
+                    <li>
+                        <button class="btn-lang" data-language="es" data-flag="https://flagcdn.com/w40/mx.png">
+                            <img src="https://flagcdn.com/w40/mx.png" alt="Español" width="40" title="Español" aria-label="Español">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn-lang" data-language="en" data-flag="https://flagcdn.com/w40/us.png">
+                            <img src="https://flagcdn.com/w40/us.png" alt="Inglés" width="40" title="Inglés" aria-label="Inglés">
+                        </button>
+                    </li>
+                </ul>
+
+            <div class="social-sidebar">
+               <a href="https://www.facebook.com/profile.php?id=61572964706066" target="_blank"><i class='bx bxl-facebook-circle' ></i>
+               </a>
+               <a href="https://github.com/Isradev96" target="_blank"><i class='bx bxl-github' ></i></a>
+               <a href="https://www.linkedin.com/in/israel-de-jes%C3%BAs-cort%C3%A9s-pelayo-814118252/" target="_blank">
+               <i class='bx bxl-linkedin-square' ></i>
+               </a>
+            </div>
+        </div>
+
+        <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+        </div>
+
+        <section class="hero" id="hero">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title">
+                    <i class='bx bxl-sketch'></i>
+                    Front-end Developer Portfolio
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000" data-section="hero" data-value="hero-title">Desarrollando la <span class="gradient">Mejor</span> Experiencia de <span class="gradient">Proyecto</span></h1>
+
+                <p data-section="hero" data-value="hero-info">Soy un full stack developer con un mayor enfoque al Front-end, tengo experiencia en desarrollo y diseño web, conoce más de mis proyectos y habilidades.</p>
+
+                <a href="#contact-section"><button data-section="hero" data-value="hero-contact">Contáctame <i class='bx bx-send' ></i></button></a>
+
+                <div class="cv-dropdown">
+                    <button id="cvToggle" class="cv-button" data-section="hero" data-value="hero-cv">
+                        Descargar CV <i class='bx bx-chevron-down'></i>
+                    </button>
+
+                    <div class="cv-options hidden-cv-options">
+                        <a href="./cv/CV_Israel_Cortes_Español.pdf" target="_blank">
+                        <button class="cv-option-btn" data-section="hero" data-value="hero-cv-spanish">CV Español</button>
+                        </a>
+                        <a href="./cv/CV_Israel_Cortes_English.pdf" target="_blank">
+                        <button class="cv-option-btn" data-section="hero" data-value="hero-cv-english">CV Inglés</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <a href="./cv/CV_Israel_Cortes_FullStack_English.pdf" target="_blank"><button data-section="hero" data-value="hero-cv">Descargar CV <i class='bx bx-send' ></i></button></a> -->
+                
+            </div>
+            
+            <div class="skills-video-box " >
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4"></video>
+            </div>
+        
+            <div class="scroll-down"></div>
+        </section>
+
+        <seaction class="info-section" id="info-section">
+            <h1 class="section-title autoDisplay" data-section="about" data-value="about-title">Hola, Bienvenido👋</h1>
+            <div class="info-cards">
+                <div class="card">
+                    <img class="img_profile" src="images/img_profile.png" alt="">
+                    <h1 data-section="about" data-value="about-card-title-1">Hola, Soy Israel</h1>
+                    <p data-section="about" data-value="about-card-info-1">Cuento con más de 3 años de experiencia, he dominado habilidades y tecnologías actualmente demandadas en el sector de desarrollo web, trabajando tanto del lado del front-end como del back-end.</p>
+                
+                </div>
+
+                <div class="card">
+                    <img src="images/grid2.png" alt="">
+                    <h1 data-section="about" data-value="about-card-title-2">Tecnologías</h1>
+                    <p data-section="about" data-value="about-card-info-2">Estoy especializado en una gran variedad de lenguajes de programación, frameworks y herramientas que me permiten construir aplicaciones robustas y escalables.</p>
+                
+                </div>
+
+                <div class="card">
+                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+                    <h1 data-section="about" data-value="about-card-title-3">Soy muy flexible, puedo trabajar remoto, híbrido o presencial.</h1>
+                    <p data-section="about" data-value="about-card-info-3">Soy de México, en busca de nuevos retos alrededor del mundo.</p>
+                
+                    <a href="#contact-section" data-section="about" data-value="about-card-contact-btn">Contáctame <i class='bx bx-send'></i></a>
+                </div>
+
+                <div class="card">
+                    <img src="images/grid4.png" alt="">
+                    <h1 data-section="about" data-value="about-card-title-4">Mi Pasión por el desarrollo web</h1>
+                    <p data-section="about" data-value="about-card-info-4">Disfruto mucho resolviendo problemas y construyendo aplicaciones web a través de código. Programar no es sólo mi profesión, es mi pasión. Disfruto explorando nuevas tecnologías y mejorando mis habilidades web día con día.</p>
+                
+                </div>
+            </div>
+        </seaction>
+
+        <section class="my-project" id="my-project">
+            <h1 class="section-title autoDisplay" data-section="projects" data-value="projects-title">Mis Proyectos 👨‍💻</h1>
+            <div class="project-card">
+                <div class="project-vidbox autoBlur" >
+                    <video loop id="projectVideo1" src="videos/video_tecnopro.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1 data-section="projects" data-value="projects-card-title-1">Moderna <span class="gradient">Página Web</span> TecnoPro</h1>
+                    <p data-section="projects" data-value="projects-card-info-1">Se realizó el diseño y desarrollo de página web para negocio de reparación de dispositivos electrónicos, implementando prácticas de SEO y diseño adaptable para todos los dispositivos. Con este proyecto se logró aumentar el tráfico de visitantes a la página en un 80%, tambien mediante la ayuda de marketing de redes sociales para captar mayor atención de los clientes. Las ventas del negocio aumentaron en un 60% más respecto a sus números anteriores, y continuan creciendo a lo largo del tiempo, logrando la satisfacción y el agradecimiento de nuestros clientes.</p>
+                    <a href="https://tecnoprobadeba.com/" target="_blank" data-section="projects" data-value="projects-card-btn-1">Ver Proyecto <i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo2" src="videos/video_natalia_ggg.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1 data-section="projects" data-value="projects-card-title-2">Elegante <span class="gradient">Página Web</span> Natalia GGG</h1>
+                    <p data-section="projects" data-value="projects-card-info-2">Se realizó el diseño web para la escritora y oradora Mexicana Natalia Guadalupe González García, cumpliendo con todos los requerimientos necesarios, con un diseño innovador y elegante, adaptado a dispositivos móviles y pantallas grandes. Se logró mejorar la presencia digital y marca personal mediante la página web en un 50% lo que ayudó a atraer más visitantes que se convirtieron en potenciales compradores de su libro.</p>
+                    <a href="https://nataliaggg.com/" target="_blank" data-section="projects" data-value="projects-card-btn-2">Ver Proyecto <i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo3" src="videos/video_pixelart.mp4"></video>
+                </div>
+                
+                <div class="project-info fadein-left">
+                    <h1 data-section="projects" data-value="projects-card-title-3">Profesional <span class="gradient">Sitio Web</span>  PixelArt Web & Design</h1>
+                    <p data-section="projects" data-value="projects-card-info-3">Se desarrolló mediante la plataforma de WordPress un sitio web para una agencia de diseño web y marketing digital. De esta forma se ayudó a mejorar la presencia digital de la agencia y atraer más visitas al sitio web. Respondiendo a todos los requerimientos, se logró posicionar mediante estrategias de SEO, de esta manera se obtuvieron resultados de mejora en un 95% SEO 100% Accesibilidad, 100% Recomendaciones y 98% Rendimiento.</p>
+                    <a href="https://pixelartweb.com/" target="_blank" data-section="projects" data-value="projects-card-btn-3">Ver Proyecto <i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="skills-section" id="skills-section">
+            <h1 class="section-title autoDisplay" data-section="skills" data-value="skills-title">
+                Mis Habilidades 💪
+            </h1>
+            <div class="skills-box autoDisplay">
+                <img class="skills-image" src="images/digital brain (2).png" alt="">
+                <div class="Designer">
+                    <h1 class="gradient" data-section="skills" data-value="skills-designer-title">Diseño <i class='bx bx-laptop'></i></h1>
+                    <p data-section="skills" data-value="skills-designer-info">Soy experto en HTML, CSS, JavaScript y herramients de diseño como Figma y Adobe XD. Mi fortaleza radica en combinar la estética con la funcionalidad para crear experiencias de usuario perfectas.</p>    
+                </div>
+                
+                <div class="coder">
+                    <h1 class="gradient" data-section="skills" data-value="skills-coder-title">Desarrollo <i class='bx bx-code-block' ></i></h1>
+                    <p data-section="skills" data-value="skills-coder-info">Tengo Conocimiento de HTML, CSS, JavaScript, y librerías como React. También tengo experiencia en manejo de base de datos NoSQL como MongoDB y SQL como MySQL y PostgresSQL.
+                    </p>
+                </div>
+
+                <div class="slider" reverse="true" style="
+                --width: 6.25rem;
+                --height: 6.25rem;
+                --quantity: 9;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/1.webp" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="images/2.webp" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="images/3.webp" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="images/4.webp" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="images/5.webp" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="images/6.webp" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="images/7.webp" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="images/8.webp" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="images/9.webp" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact-section">
+            <h1 class="section-title autoDisplay grid-header" data-section="contact" data-value="contact-title">Hablemos 😊</h1>
+
+            <div class="social-box autoBlur grid-social">
+                <a href="https://wa.me/523221524047" target="_blank"><i class='bx bxs-phone'></i> +52 322 152 4047</a>
+                <a href="https://mail.google.com/" target="_blank"><i class='bx bxl-telegram' ></i> isradev.cortespelayo@gmail.com</a>
+                <a href="https://www.linkedin.com/in/israel-de-jes%C3%BAs-cort%C3%A9s-pelayo-814118252/" target="_blank"><i class='bx bxl-linkedin-square' ></i> Israel de Jesús Cortés Pelayo</a>
+                <div class="social-icons social-icons-grid">
+                    <a href="https://www.facebook.com/profile.php?id=61572964706066" target="_blank">
+                    <i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="https://github.com/Isradev96" target="_blank"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/israel-de-jes%C3%BAs-cort%C3%A9s-pelayo-814118252/" target="_blank">
+                    <i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+            </div>
+
+            <form action="#" class="contact-box autoBlur grid-contact glass3d" method="post">
+                <p data-section="contact" data-value="contact-info">Ya sea que esté buscando crear un nuevo sitio web, mejorar su plataforma existente o presentar un proyecto único, estoy aquí para ayudar.</p>
+                <div class="field">
+                    <i class='bx bx-user'></i>
+                    <p data-section="contact" data-value="contact-full-name">Nombre Completo</p>
+                    <input class="item" data-section="placeholders" data-placeholder="name" placeholder="Su nombre completo" type="text" name="name" id="name" autocomplete="off">
+                    <div class="error-txt name"></div>
+                </div>
+
+                <div class="field">
+                    <i class='bx bx-envelope'></i>
+                    <p data-section="contact" data-value="contact-email">Dirección de Email</p>
+                    <input class="item" data-section="placeholders" data-placeholder="email" placeholder="Su correo electrónico" type="text" name="email" id="email" autocomplete="off">
+                    <div class="error-txt email"></div>
+                </div>
+
+                <div class="field">
+                    <i class='bx bx-message-square-detail'></i>
+                    <p data-section="contact" data-value="contact-subject">Asunto</p>
+                    <input class="item" data-section="placeholders" data-placeholder="subject" placeholder="Su asunto" type="text" name="subject" id="subject" autocomplete="off">
+                    <div class="error-txt subject"></div>
+                </div>
+
+                <div class="textarea-field field">
+                    <i class='bx bx-message-square-detail'></i>
+                    <p data-section="contact" data-value="contact-message">Su Mensaje Aquí</p>
+                    <textarea name="message" id="message" cols="40" rows="5" data-section="placeholders" data-placeholder="message" placeholder="Escriba su mensaje aquí..." class="item"
+                     autocomplete="off"></textarea>
+                    <div class="error-txt message"></div>
+               </div>
+
+                <button type="submit" data-section="contact" data-value="contact-btn">Enviar Mensaje <i class='bx bx-mail-send'></i></button>
+            </form>
+        
+        </section> 
+
+        <section class="footer">
+            <h1 data-section="footer" data-value="footer-info">©️2025, Hecho por IsraDev 👨🏻‍💻</h1>
+            <div class="box-icons">
+               <a href="https://www.facebook.com/profile.php?id=61572964706066" target="_blank"><i class='bx bxl-facebook-circle' ></i>
+               </a>
+               <a href="https://github.com/Isradev96" target="_blank"><i class='bx bxl-github' ></i></a>
+               <a href="https://www.linkedin.com/in/israel-de-jes%C3%BAs-cort%C3%A9s-pelayo-814118252/" target="_blank">
+               <i class='bx bxl-linkedin-square' ></i>
+               </a>
+            </div>
+        </section>   
+    </div>
+     
+    <!-- Botón Back to Top -->
+        <a href="#" id="backToTop" class="back-to-top">
+        <i class='bx bx-chevrons-up'></i>
+        </a>
+
+    <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script >
+      AOS.init();
+    </script>
+    <script>
+        // Funcionalidad del botón de descarga del CV
+        const cvToggle = document.getElementById("cvToggle");
+        const cvOptions = document.querySelector(".cv-options");
+
+        let isDropdownOpen = false;
+
+        cvToggle.addEventListener("click", () => {
+        if (!isDropdownOpen) {
+            // Mostrar con fadeDown
+            cvOptions.classList.remove("hidden-cv-options", "hide");
+            cvOptions.classList.add("show");
+            isDropdownOpen = true;
+        } else {
+            // Ocultar con fadeUp y esperar que termine
+            cvOptions.classList.remove("show");
+            cvOptions.classList.add("hide");
+            isDropdownOpen = false;
+
+            setTimeout(() => {
+            cvOptions.classList.add("hidden-cv-options");
+            cvOptions.classList.remove("hide");
+            }, 300); // coincide con la duración de la animación
+        }
+        });
+
+        // Cerrar si se hace clic fuera del menú
+        document.addEventListener("click", (e) => {
+        if (
+            isDropdownOpen &&
+            !document.querySelector(".cv-dropdown").contains(e.target)
+        ) {
+            cvOptions.classList.remove("show");
+            cvOptions.classList.add("hide");
+            isDropdownOpen = false;
+
+            setTimeout(() => {
+            cvOptions.classList.add("hidden-cv-options");
+            cvOptions.classList.remove("hide");
+            }, 300);
+        }
+        });
+
+    </script>
+   <script>
+        // Funcionalidad del botón Back to Top
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            backToTop.classList.toggle('show', window.scrollY > 300);
+        });
+    </script>
+    <script>
+        const langToggle = document.getElementById('activeLangBtn');
+        const langMenu = document.querySelector('.lang-menu');
+        const activeFlag = document.getElementById('activeFlag');
+        const langButtons = document.querySelectorAll('.btn-lang');
+
+        langToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+
+        if (langMenu.classList.contains('show')) {
+            langMenu.classList.remove('show');
+            langMenu.classList.add('hide');
+        } else {
+            langMenu.classList.remove('hide');
+            langMenu.classList.add('show');
+        }
+        });
+
+        document.addEventListener('click', () => {
+        if (langMenu.classList.contains('show')) {
+            langMenu.classList.remove('show');
+            langMenu.classList.add('hide');
+        }
+        });
+        // Cambiar el idioma y la bandera al hacer clic en un botón de idioma
+        langButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const selectedFlag = button.getAttribute('data-flag');
+            const selectedLang = button.getAttribute('data-language');
+
+            activeFlag.src = selectedFlag;
+            localStorage.setItem('lang', selectedLang);
+            localStorage.setItem('flag', selectedFlag);
+
+            langMenu.classList.remove('show');
+            langMenu.classList.add('hide');
+
+            console.log(`Idioma seleccionado: ${selectedLang}`);
+        });
+        });
+        // Cargar el idioma y la bandera guardados al cargar la página
+        window.addEventListener('DOMContentLoaded', () => {
+        const savedFlag = localStorage.getItem('flag');
+        if (savedFlag) {
+            activeFlag.src = savedFlag;
+        }
+        });
+</script>
+<script src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

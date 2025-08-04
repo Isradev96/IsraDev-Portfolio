@@ -1,0 +1,92 @@
+{
+    "header": {
+        "home": "Inicio",
+        "about-me": "Sobre Mí",
+        "projects": "Proyectos",
+        "skills": "Skills",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "hero-title": "Desarrollando la <span class=\"gradient\">Mejor</span> Experiencia de <span class=\"gradient\">Proyecto</span>",
+        "hero-info": "Soy un full stack developer con un mayor enfoque al Front-end, tengo experiencia en desarrollo y diseño web, conoce más de mis proyectos y habilidades.",
+        "hero-contact": "Contáctame ",
+        "hero-cv": "Descargar CV ",
+        "hero-cv-spanish": "CV en Español",
+        "hero-cv-english": "CV en Inglés"
+    },
+    "about": {
+        "about-title": "Hola, Bienvenido👋",
+        "about-card-title-1": "Hola, Soy Israel",
+        "about-card-info-1": "Cuento con más de 3 años de experiencia, he dominado habilidades y tecnologías actualmente demandadas en el sector de desarrollo web, trabajando tanto del lado del front-end como del back-end.",
+        "about-card-title-2": "Tecnologías",
+        "about-card-info-2": "Estoy especializado en una gran variedad de lenguajes de programación, frameworks y herramientas que me permiten construir aplicaciones robustas y escalables.",
+        "about-card-title-3": "Soy muy flexible, puedo trabajar remoto, híbrido o presencial.",
+        "about-card-info-3": "Soy de México, en busca de nuevos retos alrededor del mundo.",
+        "about-card-contact-btn": "Contáctame ",
+        "about-card-title-4": "Mi Pasión por el desarrollo web",
+        "about-card-info-4": "Disfruto mucho resolviendo problemas y construyendo aplicaciones web a través de código. Programar no es sólo mi profesión, es mi pasión. Disfruto explorando nuevas tecnologías y mejorando mis habilidades web día con día."
+    },
+    "projects": {
+        "projects-title": "Mis Proyectos 👨‍💻",
+        "projects-card-title-1": "Moderna <span class=\"gradient\">Página Web</span> TecnoPro",
+        "projects-card-info-1": "Se realizó el diseño y desarrollo de página web para negocio de reparación de dispositivos electrónicos, implementando prácticas de SEO y diseño adaptable para todos los dispositivos. Con este proyecto se logró aumentar el tráfico de visitantes a la página en un 80%, tambien mediante la ayuda de marketing de redes sociales para captar mayor atención de los clientes. Las ventas del negocio aumentaron en un 60% más respecto a sus números anteriores, y continuan creciendo a lo largo del tiempo, logrando la satisfacción y el agradecimiento de nuestros clientes.",
+        "projects-card-btn-1": "Ver Proyecto ",
+        "projects-card-title-2": "Elegante <span class=\"gradient\">Página Web</span> Natalia GGG",
+        "projects-card-info-2": "Se realizó el diseño web para la escritora y oradora Mexicana Natalia Guadalupe González García, cumpliendo con todos los requerimientos necesarios, con un diseño innovador y elegante, adaptado a dispositivos móviles y pantallas grandes. Se logró mejorar la presencia digital y marca personal mediante la página web en un 50% lo que ayudó a atraer más visitantes que se convirtieron en potenciales compradores de su libro.",
+        "projects-card-btn-2": "Ver Proyecto ",
+        "projects-card-title-3": "Profesional <span class=\"gradient\">Sitio Web</span>  PixelArt Web & Design",
+        "projects-card-info-3": "Se desarrolló mediante la plataforma de WordPress un sitio web para una agencia de diseño web y marketing digital. De esta forma se ayudó a mejorar la presencia digital de la agencia y atraer más visitas al sitio web. Respondiendo a todos los requerimientos, se logró posicionar mediante estrategias de SEO, de esta manera se obtuvieron resultados de mejora en un 95% SEO 100% Accesibilidad, 100% Recomendaciones y 98% Rendimiento.",
+        "projects-card-btn-3": "Ver Proyecto "
+    },
+    "skills": {
+        "skills-title": "Mis Habilidades 💪",
+        "skills-designer-title": "Diseño",
+        "skills-designer-info": "Soy experto en HTML, CSS, JavaScript y herramients de diseño como Figma y Adobe XD. Mi fortaleza radica en combinar la estética con la funcionalidad para crear experiencias de usuario perfectas.",
+        "skills-coder-title": "Desarrollo",
+        "skills-coder-info": "Tengo Conocimiento de HTML, CSS, JavaScript, y librerías como React. También tengo experiencia en manejo de base de datos NoSQL como MongoDB y SQL como MySQL y PostgresSQL."
+    },
+    "contact": {
+        "contact-title": "Hablemos 😊",
+        "contact-info": "Ya sea que esté buscando crear un nuevo sitio web, mejorar su plataforma existente o presentar un proyecto único, estoy aquí para ayudar.",
+        "contact-full-name": "Nombre Completo",
+        "contact-email": "Dirección de Email",
+        "contact-subject": "Asunto",
+        "contact-message": "Su Mensaje Aquí",
+        "contact-btn": "Enviar Mensaje "
+    },
+      "placeholders": {
+        "name": "Su nombre completo",
+        "email": "Su correo electrónico",
+        "subject": "Su asunto",
+        "message": "Escriba su mensaje aquí..."
+    },
+    "footer": {
+        "footer-info": "©️2025, Hecho por IsraDev 👨🏻‍💻"
+    },
+      "alerts": {
+    "successTitle": "¡Mensaje Enviado!",
+    "successText": "Tu mensaje ha sido enviado correctamente.",
+    "failTitle": "¡Ups!",
+    "failText": "Hubo un problema al enviar tu mensaje.",
+    "errorTitle": "¡Error!",
+    "errorText": "Hubo un error al conectar con el servidor.",
+    "networkTitle": "¡Error de Red!",
+    "networkText": "Verifica tu conexión a internet."
+  },
+
+    "errors": {
+    "name": {
+      "required": "El campo nombre es requerido"
+    },
+    "email": {
+      "required": "El campo correo es requerido",
+      "invalid": "Ingrese un formato de correo válido"
+    },
+    "subject": {
+      "required": "El campo asunto es requerido"
+    },
+    "message": {
+      "required": "El campo mensaje es requerido"
+    }
+  }
+}

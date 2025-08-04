@@ -1,0 +1,93 @@
+{
+    "header": {
+        "home": "Home",
+        "about-me": "About Me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "hero": {
+        "hero-title": "Developing the <span class=\"gradient\">Best</span> Project <span class=\"gradient\">Experience</span>",
+        "hero-info": "I am a full stack developer with a stronger focus on Front-end. I have experience in web development and design. Learn more about my projects and skills.",
+        "hero-contact": "Contact Me ",
+        "hero-cv": "Download CV ",
+        "hero-cv-spanish": "CV in Spanish",
+        "hero-cv-english": "CV in English"
+    },
+    "about": {
+        "about-title": "Hello, Welcome 👋",
+        "about-card-title-1": "Hi, I'm Israel",
+        "about-card-info-1": "I have over 3 years of experience and have mastered currently in-demand skills and technologies in the web development sector, working on both the front-end and back-end.",
+        "about-card-title-2": "Technologies",
+        "about-card-info-2": "I specialize in a wide variety of programming languages, frameworks, and tools that allow me to build robust and scalable applications.",
+        "about-card-title-3": "I am very flexible. I can work remotely, hybrid, or on-site.",
+        "about-card-info-3": "I am from Mexico, looking for new challenges around the world.",
+        "about-card-contact-btn": "Contact Me ",
+        "about-card-title-4": "My Passion for Web Development",
+        "about-card-info-4": "I truly enjoy solving problems and building web applications through code. Programming is not just my profession, it's my passion. I enjoy exploring new technologies and improving my web skills day by day."
+    },
+    "projects": {
+        "projects-title": "My Projects 👨‍💻",
+        "projects-card-title-1": "Modern <span class=\"gradient\">Webpage</span> TecnoPro",
+        "projects-card-info-1": "The website was designed and developed for an electronic device repair business, implementing SEO practices and responsive design for all devices. With this project, website traffic increased by 80%, also thanks to social media marketing. Business sales increased by over 60% compared to previous numbers and continue to grow, achieving client satisfaction and appreciation.",
+        "projects-card-btn-1": "View Project ",
+        "projects-card-title-2": "Elegant <span class=\"gradient\">Webpage</span> Natalia GGG",
+        "projects-card-info-2": "A website was designed for the Mexican writer and speaker Natalia Guadalupe González García, meeting all necessary requirements with an innovative and elegant design adapted to mobile devices and large screens. Her digital presence and personal brand improved by 50%, helping attract more visitors who became potential book buyers.",
+        "projects-card-btn-2": "View Project ",
+        "projects-card-title-3": "Professional <span class=\"gradient\">Website</span>  PixelArt Web & Design",
+        "projects-card-info-3": "A website was developed on the WordPress platform for a web design and digital marketing agency. This helped improve the agency’s digital presence and attract more visitors. Meeting all requirements, the site was positioned using SEO strategies and achieved scores of 95% SEO, 100% Accessibility, 100% Best Practices, and 98% Performance.",
+        "projects-card-btn-3": "View Project "
+    },
+    "skills": {
+        "skills-title": "My Skills 💪",
+        "skills-designer-title": "Design",
+        "skills-designer-info": "I am an expert in HTML, CSS, JavaScript, and design tools like Figma and Adobe XD. My strength lies in combining aesthetics with functionality to create perfect user experiences.",
+        "skills-coder-title": "Coding",
+        "skills-coder-info": "I have knowledge of HTML, CSS, JavaScript, and libraries like React. I also have experience with NoSQL databases such as MongoDB and SQL databases like MySQL and PostgreSQL."
+    },
+    "contact": {
+        "contact-title": "Let's Talk 😊",
+        "contact-info": "Whether you are looking to create a new website, improve your existing platform, or present a unique project, I am here to help.",
+        "contact-full-name": "Full Name",
+        "contact-email": "Email Address",
+        "contact-subject": "Subject",
+        "contact-message": "Your Message Here",
+        "contact-btn": "Send Message "
+    },
+    "placeholders": {
+        "name": "Your full name",
+        "email": "Your email",
+        "subject": "Your subject",
+        "message": "Write your message here..."
+    },
+    "footer": {
+        "footer-info": "©️2025, Made by IsraDev 👨🏻‍💻"
+    },
+
+      "alerts": {
+    "successTitle": "Message Sent!",
+    "successText": "Your message was sent successfully.",
+    "failTitle": "Oops!",
+    "failText": "There was a problem sending your message.",
+    "errorTitle": "Error!",
+    "errorText": "There was an error connecting to the server.",
+    "networkTitle": "Network Error!",
+    "networkText": "Please check your internet connection."
+  },
+
+  "errors": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required",
+      "invalid": "Enter a valid email format"
+    },
+    "subject": {
+      "required": "Subject is required"
+    },
+    "message": {
+      "required": "Message is required"
+    }
+  }
+}
